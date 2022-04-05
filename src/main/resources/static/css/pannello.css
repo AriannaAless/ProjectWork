@@ -1,0 +1,38 @@
+#titolo_pannello{
+    padding-top: 2rem;
+    color: #E09200;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+
+.stradaccia{
+    background-image: url("/img/pannello/stradaccia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    background-position: 50% 50%;
+}
+
+.card-body{
+    background: #212529;
+}
+
+.card-text{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+.card-title{
+
+    color: white;
+}
+
+.card-body .btn-primary{
+    background-color: #E09200;
+}
+
+.blur{
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background-color: rgba(0,0,0,.2);
+}
